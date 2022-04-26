@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.4s ease-in-out;
+}
+
+.services:hover>.services-data {
+    display: none;
+    transition: 0.4s ease-in-out;
+
+}
+.services-data:hover {
+    display: none;
+    transition: 0.4s ease-in-out;
+
+}
+
+.services:hover {
+    box-shadow: none;
+}
+
+
+.services-data {
+    /* width: 250px;
+
+    height: 250px; */
+  padding: 40px;
+
+  border-radius: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 2px 1px 9px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 1px 9px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 1px 9px 4px rgba(0, 0, 0, 0.75);
+}
+
+.services:hover>.services-hover-data {
+    display: inline;
+    box-shadow: 0px;
+
+    height: auto;
+    width: 200px;
+    background-color: red;
+    border-radius: 0px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.services-hover-data {
+    display: none;
+    height: 100%;
+    width: 100%;
+
+}
+.section1 .row{
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+    </style>
+</head>
+<body>
+    <section class="section1 mt-3 ">
+        <h1 style="text-align: center;">ser<span style="border-top: 2px solid red;">vi</span>ces</h1>
+        <p style="text-align: center;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ad?Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Eligendi, dolorem. <br>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Ipsa, blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, voluptas. <br> Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, cumque. Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Voluptates, quaerat? <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+            aliquid. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, eos. <br> Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Veritatis, eligendi. Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Hic, enim. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, optio.
+        </p>
+        <div class="container mt-5 " style="padding-left: 10px;">
+            <div class="row">
+
+                <div class="col-md-3 ">
+                    <div class="services">
+                        <div class="services-data">
+<img src="assets/img/service1.JPG" alt="">   
+                     </div>
+                        <div class="services-hover-data">
+                            <h5 class="text-center">Mobile A<span style="border-top: 2px solid green;">pp deve</span>lopment</h5>
+                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ad,
+                                incidunt commodi labore iure recusandae autem rerum excepturi accusantium optio sed
+                            ipsa!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-md-3 ">
+                    <div class="services">
+                        <div class="services-data">
+                            <img src="assets/img/service2.JPG" alt="">
+                        </div>
+                        <div class="services-hover-data">
+                            <h4 class="text-center">Mobile App development</h4>
+                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ad,
+                                incidunt commodi labore iure recusandae autem rerum excepturi accusantium optio sed
+                                necessitatibus illo aut ex tenetur aspernatur sint perspiciatis? Repellendus quibusdam
+                                et facilis nam repellat, voluptate excepturi enim cumque aliquam, autem necessitatibus
+                                esse laborum ducimus, culpa nisi suscipit molestias ipsa!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 ">
+                    <div class="services">
+                        <div class="services-data">
+<img src="assets/img/service3.JPG" alt="">    
+                    </div>
+                        <div class="services-hover-data">
+                            <h4 class="text-center">Mobile App development</h4>
+                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ad,
+                                incidunt commodi labore iure recusandae autem rerum excepturi accusantium optio sed
+                                necessitatibus illo aut ex tenetur aspernatur sint perspiciatis? Repellendus quibusdam
+                                et facilis nam repellat, voluptate excepturi enim cumque aliquam, autem necessitatibus
+                                esse laborum ducimus, culpa nisi suscipit molestias ipsa!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="services">
+                        <div class="services-data">
+<img src="assets/img/service4.JPG" alt="">
+                        </div>
+                        <div class="services-hover-data">
+                            <h4 class="text-center">Mobile App development</h4>
+                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ad,
+                                incidunt commodi labore iure recusandae autem rerum excepturi accusantium optio sed
+                                necessitatibus illo aut ex tenetur aspernatur sint perspiciatis? Repellendus quibusdam
+                                et facilis nam repellat, voluptate excepturi enim cumque aliquam, autem necessitatibus
+                                esse laborum ducimus, culpa nisi suscipit molestias ipsa!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
